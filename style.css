@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+.container {
+    border: 0vh solid pink;
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.sec_0 {
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 6vh;
+    position: absolute;
+    top: 25vh;
+}
+.sec_1 {
+    position: absolute;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+.sec_1 img {
+    width: 10vh;
+    height: 10vh;
+}
+.sec_2 {
+    position: absolute;
+    top: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.sec_2 input {
+    color: black;
+    width: 90vh;
+    height: 4vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    border: none;
+    padding: 0vh 1vh;
+    text-align: center;
+}
+
+.sec_3 {
+    color: black;
+    position: absolute;
+    bottom: 10vh;
+    font-size: 3vh;
+}
+#wallahi {
+    color: powderblue;
+}
