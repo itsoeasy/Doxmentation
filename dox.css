@@ -231,6 +231,11 @@ h2 {
         display: grid;
         width: 100vw;
         margin: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 50px 1fr 100px;
+    }
+    header {
+        height: 100px;
     }
     .content {
         order: 1;
@@ -255,7 +260,7 @@ h2 {
     }
     nav .home,
     .contact {
-        font-size: 1.5rem;
+        font-size: 1rem;
         align-content: center;
     }
 }
