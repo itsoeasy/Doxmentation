@@ -80,7 +80,6 @@ nav a:hover,
     grid-gap: 5px;
     border-bottom: 4px solid;
     border-color: #2a2a2a; /* dark grey borders */
-    border-radius: 25px;
 }
 
 .block:hover {
@@ -236,14 +235,23 @@ h2 {
     }
     header {
         height: 100px;
+        border-radius: 0px;
+    }
+    #blocks {
+        border-radius: 0px;
+    }
+    .block {
+        border-radius: 0px;
     }
     .content {
         order: 1;
         grid-column: 1/4;
+        border-radius: 0px;
     }
     .media {
         order: 2;
         grid-column: 1/4;
+        border-radius: 0px;
     }
     .heading1 {
         font-size: 2rem;
@@ -257,6 +265,10 @@ h2 {
     }
     .res {
         font-size: 1rem;
+    }
+
+    nav {
+        border-radius: 0px;
     }
     nav .home,
     .contact {
