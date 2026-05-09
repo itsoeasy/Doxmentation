@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>valorant dox</title>
+        <link rel="stylesheet" href="dox.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-C3ZQKZMHGW"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-C3ZQKZMHGW");
+        </script>
+
+        <!-- CONTACT POPUP -->
+        <div id="contactBox" class="contact-box">
+            <div class="contact-content">
+                <h2>Contact Me</h2>
+
+                <input type="text" id="name" placeholder="Your Name" />
+
+                <textarea id="message" placeholder="Your Message"></textarea>
+
+                <button onclick="sendMessage()">Send</button>
+
+                <button onclick="closeContact()">Close</button>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+        <script>
+            emailjs.init("TyXKVt0IvIvUy8rIk");
+
+            function openContact() {
+                document.getElementById("contactBox").style.display = "flex";
+            }
+
+            function closeContact() {
+                document.getElementById("contactBox").style.display = "none";
+            }
+
+            function sendMessage() {
+                let params = {
+                    name: document.getElementById("name").value,
+                    message: document.getElementById("message").value,
+                };
+
+                emailjs
+                    .send("service_fsruc5e", "template_sbxzc8j", params)
+                    .then(function () {
+                        alert("Message Sent");
+                        closeContact();
+                    });
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <h1 class="heading1">DOXMENTATION</h1>
+            </header>
+
+            <nav>
+                <a href="https://itsoeasy.github.io/GameDox/" class="home"
+                    >Home</a
+                >
+
+                <a href="#" class="contact" onclick="openContact()">
+                    Contact
+                </a>
+            </nav>
+            <!--bloack1-->
+            <div id="blocks">
+                <div class="block">
+                    <div class="media">
+                        <iframe
+                            class="video"
+                            width="400px"
+                            height="250px"
+                            src="https://www.youtube.com/embed/lWr6dhTcu-E"
+                            allowfullscreen
+                        >
+                        </iframe>
+                        <a class="res" href="https://playvalorant.com/en-us/"
+                            >valorant</a
+                        >
+                    </div>
+
+                    <div class="content">
+                        <h2 class="chead">VALORANT</h2>
+                        <p class="cpara">
+                            Valorant is a 5v5 tactical shooter where two teams
+                            compete to win 13. Attackers win a round by planting
+                            and detonating spike or eliminating the enemy team.
+                            Defenders win by defusing the spike, preventing the
+                            plant, or eliminating the enemy team. Valoran lets
+                            you pick agents with unique abilities and weapons
+                            that require creativity and a economy to manage
+                            smartly. both teams will be competing in maps that
+                            have their own personality and each players have to
+                            use their Aim and movement combined with strategic
+                            Teamplay to outplay each other.
+                        </p>
+                    </div>
+                </div>
+
+                <!--block2-->
+                <div class="block">
+                    <div class="media">
+                        <img
+                            class="images"
+                            src="https://imgs.search.brave.com/vWjjFXXHn1KZb0f01qJd15htotCW1WIO78CNjLgSQcM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDEzMTUz/MDA3LmpwZw"
+                        />
+                        <a
+                            class="res"
+                            href="https://youtu.be/zVoAmdKQayM?si=13SALz-U4_v-ktBu"
+                            target="_blank"
+                            >raw aim guide
+                        </a>
+
+                        <a
+                            class="res"
+                            href="https://youtu.be/1vKfPS0OlGA?si=u6c6gpJOp5E2onab"
+                            target="_blank"
+                            >crosshair placement
+                        </a>
+                        <a
+                            class="res"
+                            href="https://youtu.be/yqyy4j32hWk?si=mqaNtOSXwe2aA2h0"
+                            target="_blank"
+                            >aim training</a
+                        >
+                    </div>
+
+                    <div class="content">
+                        <h2 class="chead">Introduction</h2>
+                        <h3 class="c2head">Aim</h3>
+                        <p class="cpara">
+                            There are 2 types of aim, crosshair placement and
+                            raw aim. Both work hand in hand to improve your raw
+                            gameplay. Improving your aim can significantly
+                            improve your gameplay. Crosshair placement is about
+                            anticipating where the enemy will swing from and
+                            placing your crosshair on the exact spot before they
+                            peek. Raw aim includes flicking, micro-adjusting,
+                            target switching, and much more if you go down the
+                            rabbit hole.
+                        </p>
+                    </div>
+                </div>
+
+                <!--block3-->
+                <div class="block">
+                    <div class="media">
+                        <img
+                            class="images"
+                            src="https://i.pinimg.com/1200x/8b/02/d8/8b02d8a638c975728cfff6508cd160ac.jpg"
+                        />
+                        <a
+                            href="https://youtu.be/nm_n2lvHbsM?si=fdGO9micR-uJ0pRS"
+                            class="res"
+                            target="_blank"
+                            >movement guide
+                        </a>
+                        <a
+                            href="https://youtu.be/nV0WDAHrqls?si=flz2JHR4QDunqpSx"
+                            class="res"
+                            target="_blank"
+                            >part 2</a
+                        >
+                    </div>
+
+                    <div class="content">
+                        <h3 class="c2head">Movement</h3>
+                        <p class="cpara">
+                            Movement is one of the most important skills to
+                            develop for a clean foundation. Having stable and
+                            clean movement raises your overall standard of play.
+                            You cannot compensate bad aim with good movement,
+                            but bad movement will bottleneck your aim. Valorant
+                            punishes poor movement heavily.
+                        </p>
+                    </div>
+                </div>
+
+                <!--block4 -->
+                <div class="block">
+                    <div class="media">
+                        <img
+                            class="images"
+                            src="https://i.pinimg.com/736x/9f/f6/dd/9ff6dd72dd7b53c9e9c66a79c99bf695.jpg"
+                        />
+                        <a
+                            href="https://youtu.be/fJ5ClU3EzWc?si=8063waCE-1qQzFsZ"
+                            class="res"
+                            target="_blank"
+                            >gunfight hygiene guide</a
+                        >
+                        <a
+                            href="https://youtu.be/SI7yUp67KT8?si=1Y1GIb8M2UZrG3Vz"
+                            class="res"
+                            target="_blank"
+                            >part 2</a
+                        >
+                        <a
+                            href="https://youtu.be/1y2R4aTY4l8?si=cQj2vbl1jD4J-gEp"
+                            class="res"
+                            target="_blank"
+                            >latest guide</a
+                        >
+                    </div>
+
+                    <div class="content">
+                        <h3 class="c2head">Weapons</h3>
+                        <p class="cpara">
+                            Valorant has a wide range of weapons each with their
+                            own strengths and weaknesses. Since the majority of
+                            the game depends on winning gunfights, knowing how
+                            to use these weapons is essential. You will learn
+                            most of it just by playing. Understanding each
+                            weapon's strengths and weaknesses lets you gain an
+                            advantage in any gunfight. You may find yourself
+                            gravitating toward certain weapons that match your
+                            playstyle. Never be afraid to experiment and find
+                            what works for you.
+                        </p>
+                    </div>
+                </div>
+
+                <!--block5 -->
+                <div class="block">
+                    <div class="media">
+                        <img
+                            class="images"
+                            src="https://i.pinimg.com/736x/a4/b7/d3/a4b7d390b74a9ed19285804598239755.jpg"
+                        />
+                        <a
+                            href="https://youtu.be/7y7GiOdIYqc?si=9LFpRQqG0YPMPt2G"
+                            class="res"
+                            target="_blank"
+                            >agents guide</a
+                        >
+                    </div>
+
+                    <div class="content">
+                        <h3 class="c2head">Agents</h3>
+                        <p class="cpara">
+                            Valorant has a diverse roster of agents each
+                            belonging to one of four roles, Duelists,
+                            Controllers, Initiators, and Sentinels. Each agent
+                            comes with a unique set of abilities that can change
+                            the outcome of a round when used correctly. Choosing
+                            the right agent for your playstyle and your team's
+                            needs is an important part of the game. Learning one
+                            agent deeply is more valuable than playing many
+                            agents poorly. As you improve you will naturally
+                            develop a better understanding of how each role
+                            contributes to the team.
+                        </p>
+                    </div>
+                </div>
+
+                <!--block6-->
+                <div class="block">
+                    <div class="media">
+                        <img
+                            src="https://imgs.search.brave.com/r4ZSfnfpH9N0EzXCiLx6kIqbigOrYbct1B9FBTEFWOA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZXhpdGxhZy5jb20v/YmxvZy93cC1jb250/ZW50L3VwbG9hZHMv/MjAyNC8xMi92YWxv/cmFudF9tYXBzLndl/YnA"
+                            class="images"
+                        />
+                        <a
+                            href="https://youtube.com/playlist?list=PLlByqKSJNPLtz4K24UPMuzaElh1c-QOAH&si=1H6E3lCRSyVhuUa2"
+                            class="res"
+                            >map guides</a
+                        >
+                        <a
+                            href="https://youtu.be/MYuaV1J27ds?si=zGCa5ePIGy0mnOkJ"
+                            class="res"
+                            >map guides 2</a
+                        >
+                        <a
+                            href="https://youtu.be/IuZMVqZwUMU?si=zFnRoyZ3c2eDtqh8"
+                            class="res"
+                            >map guides 3</a
+                        >
+                    </div>
+
+                    <div class="content">
+                        <h3 class="c2head">Maps</h3>
+                        <p class="cpara">
+                            Maps are where every round takes place and
+                            understanding them is essential to playing the game
+                            well. Each map in Valorant has its own layout, choke
+                            points, and sites that attackers try to plant on and
+                            defenders try to hold. Learning the callouts of a
+                            map allows you and your team to communicate
+                            effectively and make faster decisions. You do not
+                            need to master every map at once. Focus on one or
+                            two maps and learn them deeply before moving on. The
+                            more familiar you are with a map the more confident
+                            and effective your movement and decision making will
+                            become.
+                        </p>
+                    </div>
+                </div>
+
+                <!--block7-->
+                <div class="block">
+                    <div class="media">
+                        <img
+                            class="images"
+                            src="https://i.pinimg.com/736x/30/11/7b/30117b974a15adb93067a43311bd64a6.jpg"
+                        />
+
+                        <a
+                            href="https://youtu.be/6PkqD7tP3Zw?si=dC3jS12Fj8XlINJs"
+                            class="res"
+                        >
+                            economy guide
+                        </a>
+                        <a
+                            href="https://youtu.be/3cII9jobVC0?si=6mCIoqaMUGr6LWEL"
+                            class="res"
+                        >
+                            economy guide 2
+                        </a>
+                        <a
+                            href="https://youtu.be/gbYeJyxNjp4?si=y6QT7OY42DDAh-1r"
+                            class="res"
+                        >
+                            economy guide 3
+                        </a>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="c2head">Economy</h3>
+                        <p class="cpara">
+                            Economy is the currency system that determines what
+                            weapons and abilities you can afford each round. You
+                            earn credits by getting kills, winning rounds, and
+                            planting or defusing the spike. A player who manages
+                            their economy well knows when to full buy, when to
+                            save, and when to force buy. Poor economy management
+                            can snowball a winning match into a loss and vice
+                            versa. Your economy and your team's economy are
+                            connected, so coordinating your buys with your team
+                            is always in your best interest.
+                        </p>
+                    </div>
+                </div>
+
+                <!--block8-->
+                <div class="block">
+                    <div class="media">
+                        <img
+                            class="images"
+                            src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/709d58750b55e543fed7e1713b3fc76189a57f82-826x245.png"
+                        />
+                        <a
+                            href="https://youtu.be/jdgXOIIxqO8?si=9BUDltaCzOev4pTy"
+                            class="res"
+                            >callout guide</a
+                        >
+                        <a
+                            href="https://youtu.be/2omccArVqqg?si=q1a8o-G8FzicnnW7"
+                            class="res"
+                        >
+                            ...
+                        </a>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="c2head">Teamplay</h3>
+                        <p class="cpara">
+                            Teamplay is what separates a group of five players
+                            from an actual team. Communicating through callouts,
+                            coordinating buys, and executing together will
+                            always give you an edge. However the reality of
+                            ranked play is that your team will not always follow
+                            the plan. Learning to position yourself around your
+                            teammates, cover the gaps they leave, and adapt to
+                            what is actually happening rather than what you
+                            hoped would happen is just as important as any
+                            strategy. Being a good teammate helps, but learning
+                            to play well within chaos is what will actually
+                            carry you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <footer>© 2026 GameDox</footer>
+        </div>
+    </body>
+</html>
